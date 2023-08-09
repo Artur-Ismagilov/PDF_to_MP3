@@ -19,7 +19,7 @@ def screen_resolution_replace(search_text,replace_text):
         file.write(file_r)
         file.truncate()
 
-    return "Resolution replaced"
+    return "Resolu replaced"
 
 def Run_underlords():
     print(screen_resolution_replace(resolution_h_r, resolution_h))
